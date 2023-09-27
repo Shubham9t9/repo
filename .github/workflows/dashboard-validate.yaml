@@ -50,10 +50,10 @@ jobs:
         pattern1="((Fixes|Resolves) #[0-9]+)"
         
         ### For ex: Resolves https://github.com/devtron-labs/devtron/issues/2123
-        pattern2="((Fixes|Resolves) https://github.com/Shubham9t9/repo/issues/[0-9]+)"
+        pattern2="((Fixes|Resolves) https://github.com/Shubham9t9/shubham-charts/issues/[0-9]+)"
         
         ### For ex: Fixes devtron-labs/devtron#2123
-        pattern3="((Fixes|Resolves) Shubham9t9#[0-9]+)"
+        pattern3="((Fixes|Resolves) Shubham9t9/shubham-charts#[0-9]+)"
         
         # Get the pull request body
         PR_BODY=$(jq -r '.pull_request.body' $GITHUB_EVENT_PATH)
