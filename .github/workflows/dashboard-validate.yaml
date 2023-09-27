@@ -85,7 +85,7 @@ jobs:
             exit 1
         fi
         ### hardcoding the url here to devtron repo as issues will always be created inside devtron repo.
-        url=https://api.github.com/repos/rishabhtayal72/hello-world
+        url=https://api.github.com/repos/Shubham9t9/repo
         # Add the issue number to the URL
         export url=${url}/issues/${issue_num}
         echo $url
