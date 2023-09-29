@@ -6,7 +6,7 @@ on:
       - opened
       - synchronize
       - edited
-      - reopened
+      - reopened :thumbsup: 
     branches:    
       - 'main'
       - 'release-**'
